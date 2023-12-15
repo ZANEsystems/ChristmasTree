@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: C:\Dropbox\2_ZANE_TERV\ZANE_termekek\_product_archives\kari_2v\kari2v3\kari2v2_panellized.PcbDoc
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
