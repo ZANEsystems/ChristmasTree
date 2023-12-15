@@ -2,7 +2,8 @@
 
  ESP32 Based WS2812 RGB LED Christmas Tree
  
-
+ ![](https://github.com/ZANEsystems/ChristmasTree/blob/main/ChristmasTree.png?raw=true)
+ 
 # Features
 
 - WS2812 RGB LEDs
@@ -25,8 +26,7 @@ https://platformio.org/platformio-ide
 
 1. Create a new project in PlatformIO, select board: "esp32-s2-saola-1", framework: Arduino
 2. Add NeoPixel library dependency to your platformio.ini file:
-    lib_deps =
-    https://github.com/adafruit/Adafruit_NeoPixel.git
+    `lib_deps = https://github.com/adafruit/Adafruit_NeoPixel.git`
 3. Copy the file main.cpp to your project. (This is our version of NeoPixel example "buttoncycler")
 4. Put the board into bootloader mode: Press and hold the button while inserting the USB connector.
 5. Build and upload the PIO project.
